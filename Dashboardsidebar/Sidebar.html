@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BigTime Dashboard</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styling -->
+    <link rel="stylesheet" href="/Dashboardsidebar/style.css">
+    <!-- font: popins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- icons:Font awesome 5.15 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="sidebar.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img src="/Images/2112cffa-5c8b-4f21-abe0-ab173b29a2df.jpg" class="bigimg">
+        <div class="profile">
+            <span class="fa fa-search"></span>
+            <img class="profile-image" src="https://picsum.photos/200/200?random=1">
+            <p class="profile-name">Lorem ipsum</p>
+        </div>
+    </nav>
+    <!-- side bar -->
+    <input type="checkbox" id="toggle">
+    <label class="side-toggle" for="toggle"><span class="fa fa-bars"></span></label>
+
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <span class="fa fa-home"></span>
+            <p>Home</p>
+
+
+        </div>
+        <div class="sidebar-menu">
+            <span class="fa fa-users"></span>
+            <p>Teams</p>
+
+
+        </div>
+        <div class="sidebar-menu">
+            <span class="fa fa-graduation-cap"></span>
+            <p>Experience Students</p>
+
+
+        </div>
+        <div class="sidebar-menu">
+            <span class="fa fa-users"></span>
+            <p>Fresher Students</p>
+
+
+        </div>
+        <div class="sidebar-menu">
+            <span class="fa fa-id-card"></span>
+            <p>Contact</p>
+
+
+        </div>
+        <div class="sidebar-menu">
+            <span class="fa fa-cog"> </span>
+            <p>Setting</p>
+
+        </div>
+
+
+
+
+    </div>
+
+    <!-- main dashboard-->
+    <main>
+        <div class="dashboard-container">
+            <!--- 4 cards top  -->
+            <div class="card total1">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>All Students</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>1,873,250<span>USD</span></h2>
+
+                    </div>
+                    <div class="info-image">
+                        <i class="fa fa-money-check-alt"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card total2">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Experience Students</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>1o,890<span>Orders</span></h2>
+
+                    </div>
+                    <div class="info-image">
+                        <i class="fa fa-boxes"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card total3">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Fresher Students</h3>
+                        <p>Lorem ipsum dolor</p>
+                        <h2>1o,890<span>Orders</span></h2>
+
+                    </div>
+                    <div class="info-image">
+                        <i class="fa fa-boxes"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---- 2 cards bottom  -->
+        <div class="card detail">
+            <div class="detail-header">
+                <h2>Students</h2>
+            </div>
+            <table>
+                </thead>
+                <tr>
+                    <th rowspan="2">Number</th>
+                    <th rowspan="2"> Students</th>
+
+                    <th rowspan="2">Student Email-Id</th>
+                    <th rowspan="2">Student Contact</th>
+                    <th colspan="2"style="float: right;">Status </th>
+                </tr>
+                <tr>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+
+                </thead>
+                <tbody id="data-output">
+                    <!----<tr>
+                        <td>1</td>
+                        <td>pooja</td>
+                        <td>@pooja</td>
+                        <td>12345</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>madhu</td>
+                        <td>@madhu</td>
+                        <td>12345</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>madhu</td>
+                        <td>@madhu</td>
+                        <td>12345</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>madhu</td>
+                        <td>@madhu</td>
+                        <td>12345</td>
+                        <td></td>
+                    </tr>--->
+                </tbody>
+            </table>
+
+
+
+        </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="login.js"></script>
+    <style>
+        #abc {
+            border: 2px solid black;
+            background-color: lightskyblue;
+            height: 500px;
+            width: 700px;
+            margin-top: 5%;
+            margin-left: 25%;
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        form {
+            padding: 20px;
+
+        }
+
+
+        #button1 {
+            height: 40px;
+            width: 40px;
+            background-color: blue;
+            border: none;
+            float: right;
+
+        }
+
+        #heading {
+            font-size: 20px;
+            margin-top: 90px;
+        }
+
+        input {
+            width: 90%;
+            padding: 1rem;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            outline: none;
+            background: transparent;
+        }
+
+        #button2 {
+            color: white;
+            background-color: blue;
+            height: 50px;
+            width: 170px;
+            margin-top: 70px;
+            border: none;
+        }
+
+        input::placeholder {
+            font-size: 19px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="abc">
+        <button id="button1">&#10006</button>
+
+        <div id="heading">GET IN TOUCH WITH US</div>
+        <form action="">
+
+            <!-- <label for="" class="ab">Username :</label> -->
+            <input type="text" placeholder="Your Username" id="username"><br><br>
+
+            <!-- <label for="" class="ab">Password :</label> -->
+            <input type="password" placeholder="Your Password" id="password">
+
+
+            <input type="button" id="button2" onclick="validate()" value="Submit">
+            <!-- <button id="button2" onclick="validate()">Submit</button> -->
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
